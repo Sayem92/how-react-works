@@ -13,10 +13,10 @@ const Watch = () => {
     useEffect(()=>{
         console.log(steps)
     },[steps]);
-    
+
     return (
         <div>
-            <h1>This is my smart watch</h1>
+            <h1>This is my smart watch for count steps.</h1>
             <h3>My current steps: {steps}</h3>
             <button onClick={increaseSteps}>De Dour..........</button>
         </div>
